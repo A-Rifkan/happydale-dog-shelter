@@ -11,33 +11,24 @@ body {
   background-color: rgb(62, 59, 59);
   color: white;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-
 }
 
 header {
-  /* your code */
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
 main {
   /* your code */
   display: flex;
-  flex-direction: column;
+
 }
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
-  /* your code */
-  display:flex;
+  display: flex;
   flex-direction: column;
-
-
-
+  /* your code */
 }
 main a {
   width: 5rem;
@@ -48,6 +39,8 @@ main a {
 
 .dog-list-container {
   /* your code */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .fluid-text {
@@ -55,9 +48,7 @@ main a {
 }
 
 .desktop-nav {
-  display:flex;
-  justify-content: flex-end;
-  flex: grow 4;
+  display: block;
 }
 
 .single-dog-card {
